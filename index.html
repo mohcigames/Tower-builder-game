@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ar">
 <head>
+    <link rel="manifest" href="manifest.json
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>باني الأبراج الأسطوري</title>
@@ -19,6 +20,12 @@
         }
     </style>
 </head>
+    <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/pwabuilder-sw.js');
+  }
+    </script>
+    
 <body>
 
     <canvas id="gameCanvas" width="400" height="640"></canvas>
