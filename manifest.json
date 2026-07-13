@@ -1,0 +1,20 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Tower Builder Game",
+  "orientation": "portrait",
+  "scope": "/",
+  "short_name": "tower-builder",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "id": "https://tower-builder-game-eosin.vercel.app/",
+  "lang": "en",
+  "display_override": [
+    "window-controls-overlay"
+  ],
+  "categories": [
+    "games"
+  ],
+  "description": "A fun tower building game"
+}
